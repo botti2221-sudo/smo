@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "gk:dragonball",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["gk_dragonball", "inanimate"] },
+      "minecraft:health": { "value": 1000, "max": 1000 },
+      "minecraft:collision_box": { "width": 0.8, "height": 0.8 },
+      "minecraft:physics": { "has_gravity": false, "has_collision": true },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:nameable": { "always_show": true, "allow_name_tag_renaming": false },
+      "minecraft:damage_sensor": {
+        "triggers": [{ "cause": "all", "deals_damage": "no" }]
+      }
+    }
+  }
+}

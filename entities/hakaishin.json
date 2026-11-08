@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "gk:hakaishin",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["gk_hakaishin", "mob"] },
+      "minecraft:health": { "value": 200, "max": 200 },
+      "minecraft:scale": { "value": 1.4 },
+      "minecraft:collision_box": { "width": 0.9, "height": 2.5 },
+      "minecraft:physics": {},
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:movement": { "value": 0 },
+      "minecraft:nameable": { "always_show": true, "allow_name_tag_renaming": false },
+      "minecraft:behavior.look_at_player": { "priority": 1, "look_distance": 16 },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          { "cause": "entity_attack", "deals_damage": "yes" },
+          { "cause": "all", "deals_damage": "no" }
+        ]
+      }
+    }
+  }
+}

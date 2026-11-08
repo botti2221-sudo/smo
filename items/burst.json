@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gk:burst",
+      "menu_category": { "category": "equipment" }
+    },
+    "components": {
+      "minecraft:icon": "gk_burst",
+      "minecraft:display_name": { "value": "§6§lゲキシンバースト §r§7(敵の破壊神の近くで使用)" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true
+    }
+  }
+}

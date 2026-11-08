@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gk:piccolo_skill1",
+      "menu_category": { "category": "equipment" }
+    },
+    "components": {
+      "minecraft:icon": "gk_piccolo_skill1",
+      "minecraft:display_name": { "value": "§b技1: 魔貫光殺砲" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:cooldown": { "category": "gk_piccolo_skill1", "duration": 0.05 }
+    }
+  }
+}

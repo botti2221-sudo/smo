@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gk:piccolo_skill2",
+      "menu_category": { "category": "equipment" }
+    },
+    "components": {
+      "minecraft:icon": "gk_piccolo_skill2",
+      "minecraft:display_name": { "value": "§b技2: 再生" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:cooldown": { "category": "gk_piccolo_skill2", "duration": 0.05 }
+    }
+  }
+}

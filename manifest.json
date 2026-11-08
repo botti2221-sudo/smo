@@ -1,0 +1,43 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Gekishin Squadra BP",
+		"description": "ドラゴンボール ゲキシンスクアドラ 戦闘再現 (ビヘイビア)",
+		"uuid": "fcedef1c-ac00-4379-9655-3fb7b9d9df9b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 90]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "652ecc6b-400d-43e3-b16d-67260aad6f95",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f1fd088a-b45f-4156-8296-7925edc0a247",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8cdd3f49-af92-403a-a438-1521feb28966",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.6.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	}
+}
